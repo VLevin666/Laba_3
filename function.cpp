@@ -63,7 +63,6 @@ void Menu::add2basa(List* Basa) {
 	std::cin >> country;
 	it->country = country;
 	Basa->add(it);
-	//delete it;
 }
 void Menu::deleteFromBasa(List* Basa) {
 
