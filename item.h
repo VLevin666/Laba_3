@@ -7,7 +7,7 @@ public:
 	std::string country;
 	std::string currency;
 	friend std::ostream& operator<< (std::ostream& out, const Item& item){
-		out <<item.price << "    C:    " << item.country << "    Co:    " << item.currency << '\n';
+		out <<item.price << "    Co:    " << item.country << "    C:    " << item.currency << '\n';
 		return out;
 	}
 
