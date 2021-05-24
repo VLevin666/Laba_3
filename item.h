@@ -2,10 +2,11 @@
 #define ITEM_H_INCLUDED
 #include<iostream>
 class Item {
-public:
+private:
 	float price;
 	std::string country;
 	std::string currency;
+public:	
 	friend std::ostream& operator<< (std::ostream& out, const Item& item){
 		out <<item.price << "    Co:    " << item.country << "    C:    " << item.currency << '\n';
 		return out;
