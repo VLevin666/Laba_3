@@ -27,6 +27,11 @@ public:
 	void findCountry(std::string co);
 
 	void editElement(int ind);
+	
+	~List(){
+		delete first;
+	}	
+		
 
 };
 
